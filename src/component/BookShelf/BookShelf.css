@@ -9,3 +9,12 @@
     gap: 20px;
     margin:50px 50px;
 }
+.cart-container{
+    background-color: #1D70B7;
+    color:#ffffff;
+    padding: 20px;
+}
+.header{
+    position: sticky;
+    top:0px;
+}
