@@ -18,15 +18,11 @@ const BookShelf = () => {
         setCart(newBook)
     }
     const handlerChooseBest = (cart) => {
-        if(cart === undefined){
-            console.log('cart in not')
-        }else{
 
             const random = Math.floor(Math.random() * cart.length);
             const rrr = cart[random]
             setRandom(rrr)
             setCart([])
-        }
     }
     const handlerRemoveFromCart = (cart)=>{
         setCart([])
