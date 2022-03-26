@@ -14,7 +14,12 @@
     color:#ffffff;
     padding: 20px;
 }
-.header{
-    position: sticky;
-    top:0px;
+.choose-btn{
+    width: 200px;
+    padding: 10px 40px;
+    background-color: #F8463F;
+    border:none;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-bottom: 20px;
 }

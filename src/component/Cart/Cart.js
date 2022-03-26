@@ -13,7 +13,6 @@ const Cart = (props) => {
             <p>{name}</p>
             <FontAwesomeIcon icon={faTrash}></FontAwesomeIcon>
             </div>
-            
         </div>
     );
 };
