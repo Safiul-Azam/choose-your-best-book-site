@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "name": "জীবন যেখানে যেমন",
+      "img": "https://boiferry.com/assets/images/redactor/sm_Ar82ZlrL3tWYd2nOGcG46zeLGbBhW0QNJjwnpCiW.webp",
+      "price": "540"
+    },
+    {
+      "id": 2,
+      "name": "মা, মা, মা এবং বাবা",
+      "img": "https://boiferry.com/assets/images/redactor/sm_Ar82ZlrL3tWYd2nOGcG46zeLGbBhW0QNJjwnpCiW.webp",
+      "price": "900"
+    },
+    {
+      "id": 3,
+      "name": "বেলা ফুরাবার আগে",
+      "img": "https://boiferry.com/assets/images/redactor/sm_Ar82ZlrL3tWYd2nOGcG46zeLGbBhW0QNJjwnpCiW.webp",
+      "price": "900"
+    },
+    {
+      "id": 4,
+      "name": "এবার ভিন্ন কিছু হোক",
+      "img": "https://boiferry.com/assets/images/redactor/sm_Ar82ZlrL3tWYd2nOGcG46zeLGbBhW0QNJjwnpCiW.webp",
+      "price": "1000"
+    },
+    {
+      "id": 5,
+      "name": "প্রত্যাবর্তন",
+      "img": "https://boiferry.com/assets/images/redactor/sm_Ar82ZlrL3tWYd2nOGcG46zeLGbBhW0QNJjwnpCiW.webp",
+      "price": "1720"
+    },
+    {
+      "id": 6,
+      "name": "আরজ আলী সমীপে",
+      "img": "https://boiferry.com/assets/images/redactor/sm_Ar82ZlrL3tWYd2nOGcG46zeLGbBhW0QNJjwnpCiW.webp",
+      "price": "1900"
+    },
+    {
+      "id": 7,
+      "name": "গল্পগুলো অন্যরকম",
+      "img": "https://boiferry.com/assets/images/redactor/sm_Ar82ZlrL3tWYd2nOGcG46zeLGbBhW0QNJjwnpCiW.webp",
+      "price": "5430"
+    },
+    {
+      "id": 8,
+      "name": "প্যারাডক্সিক্যাল সাজিদ",
+      "img": "https://boiferry.com/assets/images/redactor/sm_Ar82ZlrL3tWYd2nOGcG46zeLGbBhW0QNJjwnpCiW.webp",
+      "price": "570"
+    },
+    {
+      "id": 9,
+      "name": "আকাশ ছোঁয়া স্বপ্ন",
+      "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/bergara.png",
+      "price": "970"
+    },
+    {
+      "id": 10,
+      "name": "দ্যা রিভার্টসঃ ফিরে আসার গল্প",
+      "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/S%26WM%26P15.png",
+      "price": "800"
+    },
+    {
+      "id": 11,
+      "name": "নবি জীবনের গল্প",
+      "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/RugerAR556.png",
+      "price": "750"
+    },
+    {
+      "id": 12,
+      "name": "জবাব",
+      "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/RugerAR556RMP.png",
+      "price": "880"
+    }
+  ]

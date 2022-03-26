@@ -1,0 +1,22 @@
+.single-book{
+    width: 230px;
+    height: 500px;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 8px;
+}
+
+.single-book img{
+    width:200px;
+    height: 300px;
+    margin: 15px;
+}
+.book-info{
+    padding: 15px;
+}
+.cart-btn{
+    width:100%;
+    background-color: #F8463F;
+    border:none;
+    border-radius: 0px 0px 8px 8px;
+
+}
