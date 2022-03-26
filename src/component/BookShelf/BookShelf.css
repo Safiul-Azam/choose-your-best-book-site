@@ -6,38 +6,34 @@
 .books-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    gap: 15px;
     margin:50px 50px;
 }
 .cart-container{
     background-color: #1D70B7;
     color:#ffffff;
-    padding: 20px;
+    padding: 15px;
 }
 .choose-btn{
-    width: 200px;
     padding: 10px 40px;
     background-color: #F8463F;
     border:none;
     border-radius: 5px;
     color: #ffffff;
     margin-bottom: 20px;
+    display: block;
 }
 @media only screen and (max-width: 576px){
     .container {
         display: grid;
-        grid-template-columns: 1fr;
-       
+        grid-template-columns: auto;
     }
     .books-container{
         display: grid;
-        grid-template-columns:1fr;
-        gap: 20px;
+        grid-template-columns: auto;
+        gap: 15px;
         margin:50px 50px;
     }
     .cart-container{
-        display: grid;
-        grid-template-columns: 1fr;
     }
-
 }
