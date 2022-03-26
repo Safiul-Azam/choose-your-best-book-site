@@ -18,17 +18,25 @@ const BookShelf = () => {
         setCart(newBook)
     }
     const handlerChooseBest = (cart) => {
-        const booksList =["জীবন যেখানে যেমন","মা, মা, মা এবং বাবা", "বেলা ফুরাবার আগে", "এবার ভিন্ন কিছু হোক", "প্রত্যাবর্তন", "আরজ আলী সমীপে",]
-        
-    const random = Math.floor(Math.random() * cart.length);
-    // console.log(cart[random])
-    console.log(random)
-    // setRandom(cart[random])
+        if(cart === undefined){
+            console.log('cart in not')
+        }else{
+
+            const random = Math.floor(Math.random() * cart.length);
+            const rrr = cart[random]
+            setRandom(rrr)
+            setCart([])
+        }
+    }
+    const handlerRemoveFromCart = (cart)=>{
+        setCart([])
+
     }
 
     return (
         <div className="container">
             <div className="books-container">
+
                 {
                     books.map(book => <Books
                         key={book.id}
@@ -39,14 +47,14 @@ const BookShelf = () => {
             </div>
             <div className="cart-container">
              <h2>Choose book list</h2>
-             <h2>{random}</h2>
-             
+             <Random random={random}></Random>
                 {
-                    cart.map(item => <Cart item={item}></Cart>)
+                    cart.map(item => <Cart key={item?.id} item={item}></Cart>)
                 }
-                <Random random={random}></Random>
-                 <button onClick={()=> handlerChooseBest(cart)} className="choose-btn">Choose bast For me</button>
-                 <button className="choose-btn">Remove</button>
+                
+                 <button onClick={ () => handlerChooseBest(cart)} className="choose-btn">Choose bast For me</button>
+                 <button onClick={() => handlerRemoveFromCart(cart)} className="choose-btn">Remove</button>
+               
             </div>
             
         </div>
