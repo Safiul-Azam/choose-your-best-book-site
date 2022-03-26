@@ -3,20 +3,35 @@
     height: 500px;
     border: 1px solid rgb(218, 218, 218);
     border-radius: 8px;
+    position:relative;
 }
 
 .single-book img{
     width:200px;
     height: 300px;
     margin: 15px;
+    border-radius: 8px;
 }
 .book-info{
     padding: 15px;
+}
+.book-info h3 {
+    margin: 3px 0;
 }
 .cart-btn{
     width:100%;
     background-color: #F8463F;
     border:none;
     border-radius: 0px 0px 8px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#ffffff;
+    position: absolute;
+    bottom: 0;
+}
+.cart-btn p{
+    margin-right: 7px;
+    margin: 10px;
 
 }
